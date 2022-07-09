@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    background: #ffffff;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #000000;
+}
+
+/*Typography*/
+div,
+p,
+a,
+li,
+td {
+    -webkit-text-size-adjust: none;
+}
+
+html,
+html a {
+    -webkit-font-smoothing: antialiased !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px 0 1rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 36px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+p span,
+p strong {
+    font-weight: bold;
+}
+
+img {
+    border: none;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none !important;
+    color: #222;
+}
+
+input[type="text"]:focus,
+input[type="text"]:active,
+input[type="email"]:focus,
+input[type="email"]:active,
+input[type="password"]:focus,
+input[type="password"]:active,
+input[type="tel"]:focus,
+input[type="tel"]:active,
+textarea:focus,
+textarea:active {
+    outline: none !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+/* custome css start */
+/* Head Section  */
+.headsection {
+    background-color: #0D65A1;
+}
+
+.headBoxInner {
+    margin: 7px;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+}
+
+.headBoxInner a {
+    color: #fff;
+    margin: 8px;
+}
+
+button.btn-custom {
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px;
+    border-color: #fff;
+}
+
+span {
+    font-size: 14px;
+    margin: 5px;
+
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+    background-color: #FF6022;
+    border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.container.inner {
+    max-width: 1000px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.0rem;
+    padding-left: 1.0rem;
+}
+
+#our-speciality {
+    margin-top: 67px;
+    margin-bottom: 93px;
+}
+
+/* Our Speciality */
+.our-speciality {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 281px;
+    height: 50px;
+    left: 580px;
+    top: 699px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    color: #0D65A1;
+
+}
+
+.learning {
+
+    width: 356px;
+    height: 28px;
+    left: 125px;
+    top: 264px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+a.btn-get-started.scrollto {
+
+    font-family: 'Outfit';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px;
+    transition: 0.5s;
+    color: #fff;
+    background: #0D65A1;
+    border-radius: 10px;
+}
+
+#card-1 {
+    width: 590px;
+    height: 224px;
+    background: #F6F6F6;
+    box-shadow: 0px 45px 18px rgba(0, 0, 0, 0.01), 0px 25px 15px rgba(0, 0, 0, 0.05), 0px 11px 11px rgba(0, 0, 0, 0.09), 0px 3px 6px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-align: left;
+
+}
+
+#card-2 {
+    text-align: right;
+    width: 590px;
+    height: 224px;
+    background: #F7F7F7;
+    box-shadow: 0px 45px 18px rgba(0, 0, 0, 0.01), 0px 25px 15px rgba(0, 0, 0, 0.05), 0px 11px 11px rgba(0, 0, 0, 0.09), 0px 3px 6px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+/* 1 on 1 Instruction */
+#one-on-one {
+    left: 10.14%;
+    right: 77.08%;
+    top: 14.27%;
+    bottom: 84.85%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 50px;
+    color: #0D65A1;
+}
+
+#lorem-1 {
+    left: 10.14%;
+    right: 66.32%;
+    top: 15.31%;
+    bottom: 83.36%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.view-more {
+    width: 67px;
+    height: 18px;
+    left: 146px;
+    top: 960px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.vector-1 {
+    left: 38.12%;
+    right: 58.26%;
+    top: 15.15%;
+    bottom: 83.47%;
+    padding-top: 69px;
+    padding-bottom: 77px;
+}
+
+.vector {
+    left: 42.22%;
+    right: 53.75%;
+    top: 14.99%;
+    bottom: 83.47%;
+    padding-top: 60px;
+    padding-bottom: 77px;
+}
+
+/* Group Instruction */
+#group-instruction {
+    left: 75.62%;
+    right: 10.56%;
+    top: 14.27%;
+    bottom: 84.85%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: right;
+    color: #0D65A1;
+}
+
+#lorem-2 {
+    left: 65.9%;
+    right: 10.56%;
+    top: 15.31%;
+    bottom: 83.36%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: right;
+    color: #000000;
+}
+
+.view-more-2 {
+    width: 67px;
+    height: 18px;
+    left: 1221px;
+    top: 960px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.vector-3 {
+    left: 53.61%;
+    right: 36.67%;
+    top: 14.9%;
+    bottom: 83.36%;
+    padding-top: 53px;
+
+}
+
+.containerGroups {
+    max-width: 100%;
+}
+
+
+.title {
+
+    width: 390px;
+    height: 50px;
+    left: 525px;
+    top: 1954px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    color: #0D65A1;
+}
+
+img#logo-1 {
+    position: absolute;
+    width: 276px;
+    height: 121px;
+    left: 264px;
+    top: 2029px;
+}
+
+img#logo-2 {
+    position: absolute;
+    width: 256px;
+    height: 99px;
+    left: 588px;
+    top: 2040px;
+}
+
+img#logo-3 {
+    position: absolute;
+    width: 276px;
+    height: 121px;
+    left: 892px;
+    top: 2029px;
+
+}
+
+img#logo-4 {
+    position: absolute;
+    width: 276px;
+    height: 121px;
+    left: 402px;
+    top: 2150px;
+
+}
+
+img#logo-5 {
+    position: absolute;
+    width: 276px;
+    height: 121px;
+    left: 716px;
+    top: 2150px;
+}
+
+.rectangle {
+    position: absolute;
+    width: 100%;
+    height: 592px;
+    left: 0px;
+    top: 2368px;
+    z-index: -1;
+    background: #EDEDED;
+
+
+}
+
+.section-title {
+    margin-left: 27px;
+    margin-top: 108px;
+    width: 495px;
+    height: 152px;
+    left: 786px;
+    top: 2476px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 76px;
+    color: #0D65A1;
+}
+
+#box-rectangle-7 {
+    box-sizing: border-box;
+    width: 572px;
+    height: 636px;
+    left: 122px;
+    top: 2434px;
+    border: 3px dashed #000000;
+    background-color: #EDEDED;
+    border-radius: 40px;
+
+}
+
+.card-img {
+    padding: 15px;
+    margin-left: auto;
+    width: 588.05px;
+    height: 632.13px;
+    left: 149px;
+    top: 2443.51px;
+    background-color: #EDEDED;
+    border-radius: 40px;
+
+}
+
+.card-3 {
+    margin-top: 66px;
+}
+
+.logo-centered {
+
+    position: absolute;
+    width: 300px;
+    height: 716px;
+    left: 1235px;
+    top: 1930px;
+
+    background-image: url("/assets/images/Mask\ group-2.png");
+}
+
+
+
+.rectangle-8 {
+    position: absolute;
+    width: 528px;
+    height: 584px;
+    left: 681px;
+    top: 2676px;
+    background: #0D65A1;
+    border-radius: 40px;
+
+
+}
+
+.vector-0 {
+
+    left: 51.39%;
+    right: 47.26%;
+    top: 48.14%;
+    bottom: 51.58%;
+}
+
+.list-1 {
+
+    width: 351px;
+    height: 66px;
+    left: 790px;
+    top: 2712px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #FFFFFF;
+
+}
+
+.section-title-2 {
+    position: absolute;
+    width: 247px;
+    height: 50px;
+    left: 120px;
+    top: 3337px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    color: #0D65A1;
+}
+
+.frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 45px;
+    gap: 10px;
+    position: absolute;
+    width: 322px;
+    height: 59px;
+    left: 996px;
+    top: 3337px;
+    background: #0D65A1;
+    border-radius: 30px;
+}
+
+.frame-text {
+
+    width: 249px;
+    height: 49px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card-0 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 13px;
+    position: absolute;
+    width: 312px;
+    height: 415px;
+    left: 120px;
+    top: 3430px;
+    background: #F4F4F4;
+    box-shadow: 0px 121px 48px rgba(0, 0, 0, 0.01), 0px 68px 41px rgba(0, 0, 0, 0.05), 0px 30px 30px rgba(0, 0, 0, 0.09), 0px 8px 17px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.card-01 {
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 13px;
+    position: absolute;
+    width: 312px;
+    height: 415px;
+    left: 565px;
+    top: 3430px;
+    background: #F4F4F4;
+    box-shadow: 0px 121px 48px rgba(0, 0, 0, 0.01), 0px 68px 41px rgba(0, 0, 0, 0.05), 0px 30px 30px rgba(0, 0, 0, 0.09), 0px 8px 17px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.card-02 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 13px;
+    position: absolute;
+    width: 312px;
+    height: 415px;
+    left: 1009px;
+    top: 3430px;
+    background: #F4F4F4;
+    box-shadow: 0px 121px 48px rgba(0, 0, 0, 0.01), 0px 68px 41px rgba(0, 0, 0, 0.05), 0px 30px 30px rgba(0, 0, 0, 0.09), 0px 8px 17px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+span#link1 {
+    padding: 2px 6px;
+    width: 68px;
+    height: 18px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5E5E5E;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.card-title-main {
+    width: 197px;
+    height: 1px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+/* .navbar.navbar ul li a:hover {
+    display: block;
+    color: #FFFFFF;
+    background-color: #FF6022;
+}
+
+/* Active nav item */
+/* .navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff;
+    background-color: #FF6022;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    background-color: #FFFFFF;
+}  */
