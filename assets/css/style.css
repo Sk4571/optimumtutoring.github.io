@@ -374,8 +374,8 @@ a.btn-get-started.scrollto {
 }
 
 
-.title {
-
+h1.title {
+    position: absolute;
     width: 390px;
     height: 50px;
     left: 525px;
@@ -386,6 +386,7 @@ a.btn-get-started.scrollto {
     font-size: 45px;
     line-height: 50px;
     color: #0D65A1;
+    white-space: nowrap;
 }
 
 img#logo-1 {
@@ -469,7 +470,7 @@ img#logo-5 {
 
 }
 
-.card-img {
+.card-img-2 {
     padding: 15px;
     margin-left: auto;
     width: 588.05px;
@@ -577,6 +578,11 @@ img#logo-5 {
     flex-grow: 0;
 }
 
+.card-body-2 {
+    flex: 1 1 auto;
+
+}
+
 .card-0 {
     box-sizing: border-box;
     display: flex;
@@ -592,6 +598,7 @@ img#logo-5 {
     background: #F4F4F4;
     box-shadow: 0px 121px 48px rgba(0, 0, 0, 0.01), 0px 68px 41px rgba(0, 0, 0, 0.05), 0px 30px 30px rgba(0, 0, 0, 0.09), 0px 8px 17px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+
 }
 
 .card-01 {
@@ -645,6 +652,7 @@ span#link1 {
     border-radius: 20px;
 }
 
+/* Smart Interface Design */
 .card-title-main {
     width: 197px;
     height: 1px;
@@ -657,9 +665,168 @@ span#link1 {
     flex: none;
     order: 0;
     flex-grow: 0;
+    padding-bottom: 10px;
 
 }
 
+p.card-text-2 {
+    width: 282px;
+    height: 59px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: rgb(94, 94, 94);
+    flex: 0 0 auto;
+    order: 1;
+
+}
+
+/* $450 */
+span.price {
+    width: 34px;
+    height: 18px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5E5E5E;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2px 6px;
+}
+
+.fa-clock-o:before {
+    width: 14px;
+    height: 14px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.place-to-work {
+    position: absolute;
+    width: 100%;
+    height: 484px;
+    left: 0px;
+    top: 4016px;
+    background: url("/assets/images/work-place.png"), #000000;
+    border-radius: 40px;
+}
+
+.motive {
+    position: absolute;
+    width: 277px;
+    height: 50px;
+    left: 127px;
+    top: 4084px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+/* Great Place To Work */
+.heading-02 {
+    position: absolute;
+    width: 808px;
+    height: 50px;
+    left: 127px;
+    top: 4149px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada tempus sed tincidunt in eget imperdiet et. Id non vitae mattis duis feugiat felis sagittis lectus. Pharetra feugiat elit, pellentesque */
+.texts-lines {
+    position: absolute;
+    width: 642px;
+    height: 106px;
+    left: 127px;
+    top: 4240px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+}
+
+/* Btn_2 layout */
+.btn-2-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 10px;
+
+    width: 153px;
+    height: 38px;
+    left: 127px;
+    top: calc(50% - 38px/2 + 1555px);
+    background: #0D65A1;
+}
+
+/* Get Started Now */
+.btn_2 {
+    width: 120px;
+    height: 18px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.back-img {
+    position: absolute;
+    width: 1200px;
+    height: 678px;
+    left: 120px;
+    top: 4653px;
+    background: #FFFFFF;
+    box-shadow: -12px -45px 19px rgba(0, 0, 0, 0.02), -7px -26px 16px rgba(0, 0, 0, 0.07), -3px -11px 12px rgba(0, 0, 0, 0.12), -1px -3px 6px rgba(0, 0, 0, 0.14), 0px 0px 0px rgba(0, 0, 0, 0.14);
+    border-radius: 60px;
+}
+
+.footer-sec {
+    position: absolute;
+    width: 100%;
+    height: 319px;
+    left: 0px;
+    top: 5277px;
+    background: #0D65A1;
+}
+
+.log-img {
+
+    width: 203px;
+    height: 75px;
+    left: 115px;
+    top: 5350px;
+    background-image: url("");
+
+}
 
 /* .navbar.navbar ul li a:hover {
     display: block;
