@@ -715,7 +715,7 @@ span.price {
     height: 484px;
     left: 0px;
     top: 4016px;
-    background: url("/assets/images/work-place.png"), #000000;
+    background: url("../images/work-place.png"), #000000;
     border-radius: 40px;
 }
 
